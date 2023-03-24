@@ -22,3 +22,5 @@ set_2 = set(list_2)
 set_both = sorted(set_1.intersection(set_2), reverse=True)
 
 print('Повторяющихся чисел нет' if set_1.isdisjoint(set_2) else set_both)
+# for idx, el in enumerate(set_1):
+    print(idx, el)
