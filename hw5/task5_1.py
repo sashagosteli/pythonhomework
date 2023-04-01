@@ -14,4 +14,4 @@ def mult_power(n , power):
    if power != 1:
        return n * mult_power(n, power - 1)
 
-print(mult_power(2,4))
+print(mult_power(5,2))
